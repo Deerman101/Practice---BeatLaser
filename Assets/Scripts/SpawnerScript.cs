@@ -79,9 +79,11 @@ public class SpawnerScript : MonoBehaviour
                 case 0:
                     //jsonFilePath = "Assets/DataSongs/theFatRat.json";
 #if UNITY_EDITOR
-                    jsonFilePath = Application.dataPath + "/DataSongs/theFatRat.json";
+                    jsonFilePath = Application.dataPath + "/Resources/theFatRat.json";
 #elif UNITY_ANDROID
-                    jsonFilePath = Path.Combine(Application.persistentDataPath, "theFatRat.json");
+                    //jsonFilePath = Application.persistentDataPath + "/theFatRat.json";
+                    textAsset = Resources.Load<TextAsset>("theFatRat");
+                    jsonFilePath = textAsset.text;
 #endif
                     jsonText = File.ReadAllText(jsonFilePath);
                     cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(jsonText);
@@ -90,9 +92,12 @@ public class SpawnerScript : MonoBehaviour
                 case 1:
                     //jsonFilePath = "Assets/DataSongs/beatSaber.json";
 #if UNITY_EDITOR
-                    jsonFilePath = Application.dataPath + "/DataSongs/beatSaber.json";
+                    jsonFilePath = Application.dataPath + "/Resources/beatSaber.json";
 #elif UNITY_ANDROID
-                    jsonFilePath = Path.Combine(Application.persistentDataPath, "beatSaber.json");
+                    //jsonFilePath = Application.persistentDataPath + "/beatSaber.json";
+                    textAsset = Resources.Load<TextAsset>("beatSaber");
+                    jsonFilePath = textAsset.text;
+                    jsonText = File.ReadAllText(jsonFilePath);
 #endif
                     jsonText = File.ReadAllText(jsonFilePath);
                     cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(jsonText);
