@@ -1,0 +1,394 @@
+[
+  {
+    "_dot": 0,
+    "_timeToSpawn": 1.14
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 2.28
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 3.42
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 4.56
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 5.7
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 6.84
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 8
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 9.14
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 10.28
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 11.42
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 12.56
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 13.7
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 14.84
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 16
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 17.14
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 18.28
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 19.42
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 20.56
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 21.7
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 22.84
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 24
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 25.14
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 26.28
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 27.42
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 28.56
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 29.7
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 30.84
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 32
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 33.14
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 34.28
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 35.42
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 36.56
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 37.7
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 38.84
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 40
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 43.56
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 44.7
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 45.84
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 47
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 48.14
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 49.28
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 50.42
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 51.56
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 52.7
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 53.84
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 55
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 56.14
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 57.28
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 58.42
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 59.56
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 60.7
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 61.84
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 63
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 64.14
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 65.28
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 66.42
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 67.56
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 68.7
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 69.84
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 71
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 72.14
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 73.28
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 74.42
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 75.56
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 76.7
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 77.84
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 79
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 80.14
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 81.28
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 82.42
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 82.42
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 83.56
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 84.7
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 85.84
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 87
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 88.14
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 89.28
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 90.42
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 91.56
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 92.7
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 93.84
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 95
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 96.14
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 97.28
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 98.42
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 99.56
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 100.7
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 101.84
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 103
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 104.14
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 105.28
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 106.42
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 107.56
+  },
+  {
+    "_dot": 2,
+    "_timeToSpawn": 108.7
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 109.84
+  },
+  {
+    "_dot": 1,
+    "_timeToSpawn": 111
+  },
+  {
+    "_dot": 0,
+    "_timeToSpawn": 112.14
+  },
+  {
+    "_dot": 3,
+    "_timeToSpawn": 113.28
+  }
+]
