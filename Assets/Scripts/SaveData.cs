@@ -43,15 +43,14 @@ public class SaveData : MonoBehaviour
                 recordList.Add(newRecord);
 
                 string filePath = "";
-
-
                 string json = Newtonsoft.Json.JsonConvert.SerializeObject(recordList);
+
                 if (musicChoiñe.value == 0)
                 {
 #if UNITY_EDITOR
-                    filePath = Application.dataPath + "/DataSongs/theFatRat.json";
+                    filePath = Application.dataPath + "/Resources/theFatRat.json";
 #elif UNITY_ANDROID
-                    filePath = Path.Combine(Application.persistentDataPath, "theFatRat.json");
+                    filePath = Application.persistentDataPath + "/theFatRat.json";
 #endif
 
                     File.WriteAllText(filePath, json);
@@ -59,11 +58,10 @@ public class SaveData : MonoBehaviour
                 else if(musicChoiñe.value == 1)
                 {
 #if UNITY_EDITOR
-                    filePath = Application.dataPath + "/DataSongs/beatSaber.json";
+                    filePath = Application.dataPath + "/Resources/beatSaber.json";
 #elif UNITY_ANDROID
-                    filePath = Path.Combine(Application.persistentDataPath, "beatSaber.json");
+                    filePath = Application.persistentDataPath + "/beatSaber.json";
 #endif
-
                     File.WriteAllText(filePath, json);
                 }
             }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using static SpawnerScript;
@@ -20,6 +21,8 @@ public class SpawnerScript : MonoBehaviour
     public string jsonFilePath;
     public string jsonText;
     public ButtonManager buttonManager;
+    public TextAsset textAsset;
+    public List<CubeData> cubeDataList;
 
     [System.Serializable]
     public class CubeData
@@ -27,8 +30,6 @@ public class SpawnerScript : MonoBehaviour
         public int _dot;
         public float _timeToSpawn;
     }
-
-    public List<CubeData> cubeDataList;
 
     IEnumerator SpawnCubes()
     {
@@ -80,27 +81,43 @@ public class SpawnerScript : MonoBehaviour
                     //jsonFilePath = "Assets/DataSongs/theFatRat.json";
 #if UNITY_EDITOR
                     jsonFilePath = Application.dataPath + "/Resources/theFatRat.json";
-#elif UNITY_ANDROID
-                    //jsonFilePath = Application.persistentDataPath + "/theFatRat.json";
-                    textAsset = Resources.Load<TextAsset>("theFatRat");
-                    jsonFilePath = textAsset.text;
-#endif
                     jsonText = File.ReadAllText(jsonFilePath);
                     cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(jsonText);
+#elif UNITY_ANDROID
+                    jsonFilePath = Application.persistentDataPath + "/theFatRat.json";
+                    if(File.Exists(jsonFilePath))
+                    {
+                        jsonText = File.ReadAllText(jsonFilePath);
+                        cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(jsonText);
+                    }
+                    else
+                    {
+                        textAsset = Resources.Load<TextAsset>("theFatRat");
+                        cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(textAsset.text);
+                    }
+#endif
                     StartCoroutine(SpawnCubes());
                     break;
                 case 1:
                     //jsonFilePath = "Assets/DataSongs/beatSaber.json";
 #if UNITY_EDITOR
                     jsonFilePath = Application.dataPath + "/Resources/beatSaber.json";
-#elif UNITY_ANDROID
-                    //jsonFilePath = Application.persistentDataPath + "/beatSaber.json";
-                    textAsset = Resources.Load<TextAsset>("beatSaber");
-                    jsonFilePath = textAsset.text;
-                    jsonText = File.ReadAllText(jsonFilePath);
-#endif
                     jsonText = File.ReadAllText(jsonFilePath);
                     cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(jsonText);
+#elif UNITY_ANDROID
+                    jsonFilePath = Application.persistentDataPath + "/beatSaber.json";
+                    if(File.Exists(jsonFilePath))
+                    {
+                        jsonText = File.ReadAllText(jsonFilePath);
+                        cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(jsonText);
+                    }
+                    else
+                    {
+                        textAsset = Resources.Load<TextAsset>("beatSaber");
+                        cubeDataList = JsonConvert.DeserializeObject<List<CubeData>>(textAsset.text);
+                    }
+                    
+#endif
                     StartCoroutine(SpawnCubes());
                     break;
                 default:
